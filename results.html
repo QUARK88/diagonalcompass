@@ -43,7 +43,7 @@
     
                 var dot = c.getContext("2d");
                 dot.beginPath();
-                dot.arc((1000 * (x_axis+10)/20), 1200 - (1000 * (y_axis + 10)/20), 25, 0, 2 * Math.PI);
+                dot.arc((1000 * (x_axis+10)/20), (1000 * (y_axis + 10)/20), 25, 0, 2 * Math.PI);
                 dot.fillStyle = 'red';
                 dot.fill();
                 dot.stroke();
@@ -51,8 +51,8 @@
                 ctx.font="50px Montserrat"
                 ctx.textAlign="center"
                 ctx.fillStyle="#000000"
-                ctx.fillText("Left / Right Axis (x): " + x_axis, 500, 1100)
-                ctx.fillText("Auth / Lib Axis (y): " + y_axis, 500, 1150)
+                ctx.fillText("Left / Right Axis (x): " + x_axis, 500, 1000)
+                ctx.fillText("Auth / Lib Axis (y): " + y_axis, 500, 1000)
                 ctx.textAlign="right"
     
                 document.getElementById("banner").src = c.toDataURL();
