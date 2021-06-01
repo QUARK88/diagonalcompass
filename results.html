@@ -38,7 +38,7 @@
                 c.height = 1000;
                 var ctx = c.getContext("2d");
                 ctx.fillStyle = "#e0e0e0"
-                ctx.fillRect(0, 0, 1000, 1000);
+                ctx.fillRect(0, 0, 1000, 1200);
                 ctx.drawImage(background, 0, 0);
     
                 var dot = c.getContext("2d");
@@ -51,8 +51,8 @@
                 ctx.font="50px Montserrat"
                 ctx.textAlign="center"
                 ctx.fillStyle="#000000"
-                ctx.fillText("Left / Right Axis (x): " + x_axis, 500, 900)
-                ctx.fillText("Auth / Lib Axis (y): " + y_axis, 500, 950)
+                ctx.fillText("Left / Right Axis (x): " + x_axis, 500, 1100)
+                ctx.fillText("Auth / Lib Axis (y): " + y_axis, 500, 1150)
                 ctx.textAlign="right"
     
                 document.getElementById("banner").src = c.toDataURL();
