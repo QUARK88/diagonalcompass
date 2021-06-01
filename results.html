@@ -34,11 +34,11 @@
             var background = new Image();
             background.onload = function() {
                 var c = document.createElement("canvas");
-                c.width = 1600;
-                c.height = 1600;
+                c.width = 1000;
+                c.height = 1000;
                 var ctx = c.getContext("2d");
-                ctx.fillStyle = "#EEEEEE"
-                ctx.fillRect(0, 0, 1600, 1600);
+                ctx.fillStyle = "#e0e0e0"
+                ctx.fillRect(0, 0, 1000, 1000);
                 ctx.drawImage(background, 0, 0);
     
                 var dot = c.getContext("2d");
@@ -50,12 +50,12 @@
     
                 ctx.font="50px Montserrat"
                 ctx.textAlign="center"
-                ctx.fillStyle="#222222"
-                ctx.fillText("Left / Right Axis (x): " + x_axis, 725, 1375)
-                ctx.fillText("Auth / Lib Axis (y): " + y_axis, 725, 1450)
+                ctx.fillStyle="#000000"
+                ctx.fillText("Left / Right Axis (x): " + x_axis, 725, 900)
+                ctx.fillText("Auth / Lib Axis (y): " + y_axis, 725, 900)
                 ctx.textAlign="right"
                 ctx.font="60px Montserrat"
-                ctx.fillText("BetterCompass", 1600, 1560)
+                ctx.fillText("BetterCompass", 1000, 1560)
     
                 document.getElementById("banner").src = c.toDataURL();
             }
