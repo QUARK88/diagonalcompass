@@ -38,12 +38,12 @@
                 c.height = 750;
                 var ctx = c.getContext("2d");
                 ctx.fillStyle = "#ffffff"
-                ctx.fillRect(0, 0, 650, 650);
+                ctx.fillRect(0, 0, 750, 750);
                 ctx.drawImage(background, 0, 0);
     
                 var dot = c.getContext("2d");
                 dot.beginPath();
-                dot.arc(65+(750 * (x_axis + (619/750)*10)/20), 65+(750 * (y_axis + (619/750)*10)/20), 10, 0, 2 * Math.PI);
+                dot.arc(65+(750 * (619/750)*(x_axis + 10)/20), 65+(750 * (619/750)*(y_axis + 10)/20), 10, 0, 2 * Math.PI);
                 dot.fillStyle = 'red';
                 dot.fill();
                 dot.stroke();
