@@ -43,7 +43,7 @@
     
                 var dot = c.getContext("2d");
                 dot.beginPath();
-                dot.arc((619/750)*((750 * (x_axis + 10)/20)), (619/750)*((750 * (y_axis + 10)/20)), 10, 0, 2 * Math.PI);
+                dot.arc(((750 * (x_axis + (619/750)*10))/20), (750 * (y_axis + (619/750)*10))/20), 10, 0, 2 * Math.PI);
                 dot.fillStyle = 'red';
                 dot.fill();
                 dot.stroke();
