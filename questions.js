@@ -45,7 +45,7 @@ questions =  [
     {"id": 40, "question": "It is necessary to maintain law and order.", "effects": {"auth": 1}},
     {"id": 41, "question": "A society without a state would quickly collapse.", "effects": {"auth": 2}},
     {"id": 42, "question": "Certain rules and regulations should be consistent throughout a country.", "effects": {"auth": 1}},
-    {"id": 43, "question": "A strong government can fix most societal problems.", "effects": {"auth": 1}},
+    {"id": 43, "question": "A stronger government would be able to fix more of society's problems.", "effects": {"auth": 1}},
 
     {"id": 44, "question": "Abandoned property should be free to use by any individual.", "effects": {"auth": -1, "right": -1}},
     {"id": 45, "question": "Intellectual property is illegitimate.", "effects": {"auth": -1, "right": -1}},
