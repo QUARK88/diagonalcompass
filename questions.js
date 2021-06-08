@@ -5,7 +5,7 @@ questions =  [
     {"id": 3, "question": "Humans have no fixed nature.", "effects": {"right": -1}},
     {"id": 4, "question": "Accumulation of wealth leads to the creation of an opressive class system", "effects": {"right": -2}},
     {"id": 5, "question": "The value of something comes from the work that goes into creating it.", "effects": {"right": -1}},
-    {"id": 6, "question": "Billionares should not exist", "effects": {"right": -1}},
+    {"id": 6, "question": Most rich people make their fortunes dishonestly", "effects": {"right": -1}},
     {"id": 7, "question": "Private property should be abolished.", "effects": {"right": -2}},
     {"id": 8, "question": "Goods should be produced to be used, not to make a profit.", "effects": {"right": -1}},
     {"id": 9, "question": "Violent revolution is necessary to make serious change.", "effects": {"right": -1}},
